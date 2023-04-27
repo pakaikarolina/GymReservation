@@ -8,6 +8,7 @@ import java.util.List;
 
 @Entity(name = "Coach")
 @Table
+@Builder
 public class Coach {
 
     @Id
