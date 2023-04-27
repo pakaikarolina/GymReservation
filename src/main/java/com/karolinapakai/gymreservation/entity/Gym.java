@@ -1,6 +1,7 @@
 package com.karolinapakai.gymreservation.entity;
 
 
+import com.karolinapakai.gymreservation.domain.coach.entity.Coach;
 import jakarta.persistence.*;
 
 import java.util.List;
