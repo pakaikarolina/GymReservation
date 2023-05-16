@@ -1,12 +1,25 @@
 package com.karolinapakai.gymreservation.entity;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.experimental.SuperBuilder;
 
 @Entity
-@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@DiscriminatorColumn
+@Getter
+@Setter
+@SuperBuilder(toBuilder = true)
 public abstract class Sport {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    Long id;
+
+    String name;
+
+    String description;
+
+    int duration;
+
 }

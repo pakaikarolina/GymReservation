@@ -1,10 +1,14 @@
 package com.karolinapakai.gymreservation.entity;
 
+import jakarta.persistence.DiscriminatorValue;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
+import lombok.experimental.SuperBuilder;
 
 @Entity
+@DiscriminatorValue("Yoga")
 @Table
-public class Yoga extends Sport{
+@SuperBuilder(toBuilder = true)
+public class Yoga extends Sport {
 
 }
