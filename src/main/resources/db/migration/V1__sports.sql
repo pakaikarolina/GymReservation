@@ -1,0 +1,4 @@
+INSERT INTO sport (id, dtype, name, description, duration) values
+(1, 'spinning', 'spinning', 'Focusing on endurance, strength, intervals, high intensity (race days) and recovery, and involves using a special stationary exercise bicycle with a weighted flywheel in a classroom setting', 55),
+(2, 'trx', 'trx', 'TRX is a form of suspension training that uses body weight exercises to develop strength, balance, flexibility and core stability simultaneously', 60),
+(3, 'yoga', 'yoga', 'Yoga is a practice that connects the body, breath, and mind. It uses physical postures, breathing exercises, and meditation to improve overall health', 90);
