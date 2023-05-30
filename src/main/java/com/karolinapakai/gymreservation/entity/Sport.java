@@ -2,6 +2,7 @@ package com.karolinapakai.gymreservation.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.experimental.SuperBuilder;
 
@@ -11,7 +12,8 @@ import lombok.experimental.SuperBuilder;
 @Getter
 @Setter
 @SuperBuilder(toBuilder = true)
-public abstract class Sport {
+@NoArgsConstructor
+public class Sport {
 
     @Id
     Long id;
