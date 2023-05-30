@@ -18,7 +18,7 @@ public class Coach {
     @Column
     private String name;
 
-    @OneToMany(cascade = CascadeType.ALL)
+    @ManyToMany(cascade = CascadeType.ALL)
     private List<Sport> sports;
 
 }
