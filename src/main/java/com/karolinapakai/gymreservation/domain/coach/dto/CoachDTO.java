@@ -1,6 +1,5 @@
 package com.karolinapakai.gymreservation.domain.coach.dto;
 
-import com.karolinapakai.gymreservation.domain.sport.dto.SportDTO;
 import lombok.Getter;
 
 import java.util.List;
@@ -9,6 +8,6 @@ import java.util.List;
 public class CoachDTO {
 
     String name;
-    List<SportDTO> sports;
+    List<Long> sportIDs;
 
 }
