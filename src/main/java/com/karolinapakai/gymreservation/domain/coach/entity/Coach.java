@@ -1,6 +1,6 @@
 package com.karolinapakai.gymreservation.domain.coach.entity;
 
-import com.karolinapakai.gymreservation.entity.Sport;
+import com.karolinapakai.gymreservation.domain.sport.entity.Sport;
 import jakarta.persistence.*;
 import lombok.Builder;
 

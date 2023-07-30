@@ -1,4 +1,4 @@
-package com.karolinapakai.gymreservation.entity;
+package com.karolinapakai.gymreservation.domain.sport.entity;
 
 import jakarta.persistence.DiscriminatorValue;
 import jakarta.persistence.Entity;
@@ -11,6 +11,6 @@ import lombok.experimental.SuperBuilder;
 @Table
 @Setter
 @SuperBuilder(toBuilder = true)
-public class Spinning extends Sport{
+public class Spinning extends Sport {
 
 }

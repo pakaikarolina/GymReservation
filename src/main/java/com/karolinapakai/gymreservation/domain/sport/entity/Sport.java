@@ -1,4 +1,4 @@
-package com.karolinapakai.gymreservation.entity;
+package com.karolinapakai.gymreservation.domain.sport.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;

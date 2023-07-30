@@ -1,4 +1,4 @@
-package com.karolinapakai.gymreservation.entity;
+package com.karolinapakai.gymreservation.domain.member.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
